@@ -402,13 +402,13 @@ body {
 .fl-right {
     float: right;
 }
-.header {
-    padding: 40px 0;
-}
 .wrap, .footer {
     width: 1008px;
     max-width: 100%;
     margin: 0 auto;
+}
+body .wrap {
+    padding-top: 24px;
 }
 .main-pic {
     width: 55px;
@@ -420,7 +420,6 @@ body {
     font-family: 'poppinssemibold', sans-serif;
     font-size: 54px;
     line-height: 80px;
-    /*width: 655px;*/
 }
 .logo {
     margin-top: 15px;
@@ -429,14 +428,10 @@ body {
     height: 16px;
 }
 .top-title {
-    margin-top: 132px;
+    margin-top: 64px;
 }
 .experience {
     display: block;
-}
-.experience, .designer, .goals {
-    /*display: block;*/
-
 }
 .sub-title_name {
     font-size: 24px;
@@ -444,7 +439,7 @@ body {
     padding-top: 28px;
 }
 .top-menu {
-    margin-top: 115px;
+    margin-top: 80px;
 }
 .top-menu_social .social_item {
     margin: .5em 0;
